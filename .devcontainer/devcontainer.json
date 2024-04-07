@@ -1,0 +1,12 @@
+{
+  "name": "TomEE Codespace",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "vscjava.vscode-java-pack",
+    "vsciot-vscode.vscode-arduino"
+  ],
+  "settings": {
+    "java.home": "/usr/lib/jvm/temurin-17"
+  },
+  "forwardPorts": [8080]
+}

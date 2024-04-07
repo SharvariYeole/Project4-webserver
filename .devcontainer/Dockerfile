@@ -1,0 +1,1 @@
+FROM tomee:9.1.2-jre17-alpine-webprofile
