@@ -1,5 +1,5 @@
-
-FROM tomcat:10.1.0-M5-jdk16-openjdk-slim-bullseye
+FROM tomee:9.1.2-jre17-alpine-webprofile
+# Use Tomcat 10, which supports Servlets 5
 
 # This limits the amount of memory used so that free-tier Heroku limits are not exceeded
 ENV JAVA_OPTS="-Xmx300m"
