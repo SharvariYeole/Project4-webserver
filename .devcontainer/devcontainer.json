@@ -1,6 +1,7 @@
 {
   "build": {
     "dockerfile": "Dockerfile",
+    "postCreateCommand": "sudo apt update && sudo apt install -y docker.io && sudo systemctl start docker && sudo systemctl enable docker && sudo usermod -aG docker $USER",
     "forwardPorts": [8080]
   }
 }
