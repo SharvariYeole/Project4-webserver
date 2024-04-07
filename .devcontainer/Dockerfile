@@ -8,7 +8,7 @@ ENV JAVA_OPTS="-Xmx300m"
 EXPOSE 8080
 
 # Copy in our ROOT.war to the right place in the container
-COPY ../ROOT.war /usr/local/tomcat/webapps/
+COPY ROOT.war /usr/local/tomcat/webapps/
 
 # LOCALHOST:  Run catalina in the container
 # Should map localhost:8080 to this app
