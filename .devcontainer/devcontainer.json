@@ -1,14 +1,6 @@
 {
-  "name": "TomEE Codespace",
-  "dockerFile": "Dockerfile",
-  "extensions": [
-    "vscjava.vscode-java-pack",
-    "vsciot-vscode.vscode-arduino"
-  ],
-  "settings": {
-    "java.home": "/usr/lib/jvm/java-17-openjdk-amd64/",
-    "git.path": "/usr/bin/git"
-  },
-  "forwardPorts": [8080],
-  "postCreateCommand": "sudo apt update && sudo apt install -y git"
+  "build": {
+    "dockerfile": "Dockerfile",
+    "forwardPorts": [8080]
+  }
 }
