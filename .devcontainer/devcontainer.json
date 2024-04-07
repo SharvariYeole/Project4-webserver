@@ -6,7 +6,7 @@
     "vsciot-vscode.vscode-arduino"
   ],
   "settings": {
-    "java.home": "/usr/lib/jvm/java-17-openjdk-amd64/"
+    "java.home": "/home/cdot/Downloads/jdk-17.0.10+7"
   },
   "forwardPorts": [8080]
 }
