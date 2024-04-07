@@ -6,8 +6,7 @@
     "vsciot-vscode.vscode-arduino"
   ],
   "settings": {
-    "java.home": "/usr/lib/jvm/java-17-openjdk-amd64/bin/java",
-    "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64/bin/java"
+    "java.home": "/home/cdot/Downloads/jdk-17.0.10+7/bin/java",
   },
   "forwardPorts": [8080],
   "postCreateCommand": "sudo apt update && sudo apt install -y git"
