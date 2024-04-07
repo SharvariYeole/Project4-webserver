@@ -6,7 +6,7 @@
     "vsciot-vscode.vscode-arduino"
   ],
   "settings": {
-    "java.home": "/usr/lib/jvm/temurin-17"
+    "java.home": "/usr/lib/jvm/java-17-openjdk-amd64/"
   },
   "forwardPorts": [8080]
 }
